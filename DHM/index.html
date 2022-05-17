@@ -1,0 +1,59 @@
+<html>
+    <head>
+      <title>DHM Oral History Map</title>
+      
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet"> 
+      
+      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""></script>
+
+      <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <header>
+        <a href="http://dartmouthheritagemuseum.ns.ca/learn/oral-histories/"><img src="images\logo.png" /></a>
+    </header>
+    
+    <body>
+        <div id="about">
+            <h1>The Halifax / Dartmouth Explosion of 1917</h1>
+            <h2>Oral History Map</h2>
+            <p>This map features audio clips from the Dartmouth Heritage Museum's oral history collection. They were recorded in the 1980s and 90s by members of the Dartmouth Museum Society. All of the interviewees are Dartmouthians who survived the Dartmouth/Halifax explosion of 1917, which remains the second largest manmade explosion in history.</p>
+            <p>To learn more about the Darmouth/Halifax Explosion, come visit our exhibit at historic Evergreen House.</p>
+            <p style="font-size: .7em; line-height: 1.3em;">Content warning: Many of the following audio clips contain descriptions of graphic injuries.  Some interviews contain the use of outdated and racist terminology common for the time period. The interviews are presented unedited and in its original form, as doing otherwise would be akin to erasing such racism from the historical record.</p>
+        </div>
+        <div id="mapSide">
+            <div id="map"></div>
+        </div>
+        <div id="legend">
+            <table>
+                <tr>
+                    <td><img class="tableImg" src="images/red-icon.png" /></td>
+                    <td class = "legendTxt">Home & location at time of explosion</td>
+                </tr>
+                <tr>
+                    <td><img class="tableImg" src="images/violet-icon.png" /></td>
+                    <td class = "legendTxt">Location at time of explosion, if away</td>
+                </tr>
+                <tr>
+                    <td><img class="tableImg" src="images\house.png" /></td>
+                    <td class = "legendTxt">Home at time of explosion, if away</td>
+                </tr>
+                <tr>
+                    <td><img class="tableImg" src="images/green-icon.png" /></td>
+                    <td class = "legendTxt">Dartmouth Heritage Museum</td>
+                </tr>
+            </table>
+            <button id="radBtn">SHOW BLAST RADIUS</button>
+        </div>
+    </body>
+    
+    <script src="main.js"></script>
+    </html>

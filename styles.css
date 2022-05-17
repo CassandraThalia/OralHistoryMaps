@@ -1,0 +1,51 @@
+/* ----------------------------- GENERAL SETTINGS ------------------------------- */
+html, body, h2, h3, h4, h5, h6 {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: #333;
+    background-image: url('images/asfalt.png');
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+}
+
+
+/* ----------------------------- HEADER SETTINGS ------------------------------- */
+header {
+    height: max-content;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    font-family: sans-serif;
+}
+header > a > img {
+    width: 40px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* ----------------------------- BODY SETTINGS ------------------------------- */
+h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 5em;
+    text-align: center;
+    margin: 5rem;
+}
+
+.museum_card img {
+    width: 300;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.museum_card a {
+    color: white;
+    text-align: center;
+}

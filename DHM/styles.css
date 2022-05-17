@@ -1,0 +1,153 @@
+/* ----------------------------- GENERAL SETTINGS ------------------------------- */
+html, body, h2, h3, h4, h5, h6 {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: #333;
+    background-image: url('images/asfalt.png');
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+}
+
+
+/* ----------------------------- HEADER SETTINGS ------------------------------- */
+header {
+    height: max-content;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    font-family: sans-serif;
+}
+header > a > img {
+    width: 40px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+/* ----------------------------- MAP AND ABOUT SETTINGS ------------------------------- */
+#mapSide {
+    position: fixed;
+    right: 0;
+    width: 70%;
+    height: 100vh;
+}
+#map {
+    width: 100%;
+    height: 100vh;
+    box-shadow: -12px 0 15px -4px rgb(0 0 0 / 0.3);
+}
+#about {
+    float: left;
+    height: max-content;
+    width: 23%;
+    margin: 10px 30px;
+    padding: 10px;
+    line-height: 1.4rem;
+    font-size: 1.1rem;
+}
+
+h1 {
+    line-height: 2.3rem;
+}
+
+
+/* ----------------------------- POPUP SETTINGS ------------------------------- */
+.popUpStyle .leaflet-popup-content-wrapper,
+.popUpStyle .leaflet-popup-tip {
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  padding: .2rem;
+}
+
+.popUpStyle .leaflet-popup-content {
+    height: max-content;
+    min-width: 500px;
+}
+
+.popUpStyle h1 {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.popUpStyle img {
+    margin: 0px 20px 10px 20px;
+    height: 200px;
+    border-radius: 10px;
+    float: left;
+    width: 40%;
+    background-position: center center;
+    object-fit: cover;
+}
+
+.popUpStyle #desc {
+    font-family: 'Nunito', sans-serif;
+    font-size: .9rem;
+    width: 50%;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.popUpStyle #caption {
+    color: grey;
+    font-style: italic;
+}
+
+.popUpStyle #player {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.audio_volume_only {
+    width: 500px;
+}
+
+
+/* ----------------------------- LEGEND SETTINGS ------------------------------- */
+#legend {
+    position: fixed;
+    right: 0;
+    width: 150px;
+    height: fit-content;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 0.6);
+}
+
+.tableImg {
+    width: 20px;
+    padding: 3px;
+    margin: 5px;
+    /* background-color: rgba(255,255,255,0.4);
+    border-radius: 50%; */
+}
+
+.legendTxt {
+    font-size: 0.6em;
+    padding: 5px;
+}
+
+button {
+    color:white;
+    background: rgba(255,255,255,0.3);
+    border: none;
+    width: 100%;
+    padding: 5 0 8 0;
+    font-size: 0.7em;
+}
+
+button:hover {
+    background: rgba(255,255,255,0.5);
+    color: black;
+}
+
+button:active {
+    background: #333;
+    color: white;
+}
