@@ -5,11 +5,10 @@ html, body, h2, h3, h4, h5, h6 {
 }
 
 body {
-    background: #333;
-    background-image: url('images/asfalt.png');
-    color: white;
+    background-image: url('images/mapBG.png');
     font-family: 'Nunito', sans-serif;
     overflow: hidden;
+    text-align: center;
 }
 
 
@@ -30,22 +29,30 @@ header > a > img {
 }
 
 /* ----------------------------- BODY SETTINGS ------------------------------- */
-h1 {
+#title {
     font-family: 'Fredoka One', cursive;
     font-size: 5em;
-    text-align: center;
-    margin: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+#subtitle {
+    margin-bottom: 5rem;
+    font-size: 1em;
+}
+
+.cards_container {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 30;
+    border-radius: 20px;
 }
 
 .museum_card img {
     width: 300;
     border-radius: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.museum_card a {
+a {
     color: white;
-    text-align: center;
 }
