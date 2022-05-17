@@ -56,6 +56,10 @@ h1 {
     line-height: 2.3rem;
 }
 
+h2 {
+    padding-top: 10px;
+}
+
 
 /* ----------------------------- POPUP SETTINGS ------------------------------- */
 .popUpStyle .leaflet-popup-content-wrapper,
