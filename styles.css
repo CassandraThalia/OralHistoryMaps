@@ -7,32 +7,41 @@ html, body, h2, h3, h4, h5, h6 {
 body {
     background-image: url('images/mapBG.png');
     font-family: 'Nunito', sans-serif;
-    overflow: hidden;
     text-align: center;
 }
 
-
-/* ----------------------------- HEADER SETTINGS ------------------------------- */
-header {
-    height: max-content;
-    color: white;
+/* #nav_bar {
+    height: 100%;
+    width: 5%;
+    top: 0;
+    left: 0;
     background-color: black;
-    padding: 5px;
-    font-family: sans-serif;
+    position: fixed;
+    color: white;
+    padding: 10px;
+    transition: 1s;
 }
-header > a > img {
-    width: 40px;
-    padding: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+
+#nav_bar:hover {
+    width: 10%;
 }
+
+#nav_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 3rem 0;
+}
+
+#nav_bar ul li {
+    margin-top: 2em;
+} */
+
 
 /* ----------------------------- BODY SETTINGS ------------------------------- */
 #title {
     font-family: 'Fredoka One', cursive;
     font-size: 5em;
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 0;
 }
 
@@ -55,4 +64,8 @@ header > a > img {
 
 a {
     color: white;
+}
+
+.museum_title {
+    padding: 1rem;
 }
