@@ -11,33 +11,6 @@ body {
     text-align: center;
 }
 
-/* #nav_bar {
-    height: 100%;
-    width: 5%;
-    top: 0;
-    left: 0;
-    background-color: black;
-    position: fixed;
-    color: white;
-    padding: 10px;
-    transition: 1s;
-}
-
-#nav_bar:hover {
-    width: 10%;
-}
-
-#nav_bar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 3rem 0;
-}
-
-#nav_bar ul li {
-    margin-top: 2em;
-} */
-
-
 /* ----------------------------- BODY SETTINGS ------------------------------- */
 #title {
     font-family: 'Fredoka One', cursive;

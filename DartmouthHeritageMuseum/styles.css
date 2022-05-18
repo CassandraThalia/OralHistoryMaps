@@ -9,7 +9,8 @@ body {
     background-image: url('images/asfalt.png');
     color: white;
     font-family: 'Nunito', sans-serif;
-    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 
