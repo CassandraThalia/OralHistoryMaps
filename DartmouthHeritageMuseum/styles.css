@@ -52,12 +52,20 @@ header > a > img {
     line-height: 1.4rem;
     font-size: 1.1rem;
 }
-#about > a > img {
+
+.grid-cont{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-top: 50px;
+}
+
+#about > .grid-cont > a > img {
     width: 50px;
     padding: 2px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+}
+
+#footer {
+    font-size: .6rem;
 }
 
 #about a {
